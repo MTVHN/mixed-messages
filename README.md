@@ -17,4 +17,4 @@ I'll be using:
 
 ### Launch
 
-Use *node.js* to run code. Or JS Interpreter. 
+Use *node.js* to run code. Or JS Interpreter.
