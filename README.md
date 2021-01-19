@@ -1,6 +1,7 @@
 # Mixed Messages
 
-For this project, I built a message generator program. Every time a user runs a program, they should get a new, randomized output.
+For this project, I built a message generator program. Every time a user runs a program, they should get a new randomized output.
+I decided to expand the program by adding a *greeting* and *emoji* randomly selected. 
 
 The **Project Objectives:**
  - Build a message generator program using JS
@@ -18,3 +19,5 @@ I'll be using:
 ### Launch
 
 Use *node.js* to run code. Or JS Interpreter.
+
+**I welcome any feedback on syntax, code structure, or any other recommendations.**
