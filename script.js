@@ -13,14 +13,14 @@ const greetings = () => {
         greeting = 'Evening,';
     }
     return greeting;
-}
+};
 //Stores the random messages 
 const wiseWords = {
     emoji : [0x1F429, 0x1F603, 0x1F4A9, 0x1F60D, 0x1F929, 0x1F974],
     action : ['reading', 'drinking tea', 'going back to sleep', 'running'],
     think : ['take you on a new course', 'kill you', 'make you blind', 'make you question'],
     decide : ['see it and seize it', 'let it be', 'move on', 'conquer it'] 
-}
+};
 //Will combine all the messages
 let msg = [];
 
@@ -52,7 +52,7 @@ const randomWise = obj  => {
         }
     }
     return msg;
-}
+};
 
 //Holds the complete program
 const completeMessage = () => {
@@ -61,7 +61,7 @@ const completeMessage = () => {
 
     const formattedMsg = msg.join('\n');
     console.log(formattedMsg);
-}
+};
 
 completeMessage();
 
